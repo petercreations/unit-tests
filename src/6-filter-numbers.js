@@ -1,3 +1,3 @@
-export const filterNumbers = (array, largerThan) => {
-  return array
+export const filterNumbers = (array, largerNumbers) => {
+  return array.filter(number => number <= largerNumbers)
 }
